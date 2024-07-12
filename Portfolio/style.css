@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    background-color: rgb(134, 204, 245);
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(185, 95%, 37%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin-left: 200%;
+}
+.navbar a:hover{
+    background-color: hsl(204, 72%, 83%);
+    width: 90%;
+}
+.navbar li{
+    float: left;
+    margin-left: 10%;
+
+}
+
+.first{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(134, 204, 245);
+    font-family: 'Noto Serif', serif;
+}
