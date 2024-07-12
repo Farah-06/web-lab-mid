@@ -1,21 +1,15 @@
-body{
-    margin: 0px;
-    background-color: rgb(134, 204, 245);
-}
-main{
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 .navbar ul{
     list-style-type: none;
-    background-color: hsl(185, 95%, 37%);
+    background-color: hsl(0, 0%, 0%);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: #5f0357;
 }
 .navbar a{
-    color: rgb(0, 0, 0);
+    color:#fba6f4;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -23,7 +17,7 @@ main{
     margin-left: 200%;
 }
 .navbar a:hover{
-    background-color: hsl(204, 72%, 83%);
+    background-color: hsl(43, 66%, 65%);
     width: 90%;
 }
 .navbar li{
@@ -36,6 +30,65 @@ main{
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgb(134, 204, 245);
-    font-family: 'Noto Serif', serif;
+    background-color: hsl(42, 68%, 73%);
+    border-radius: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: #5f0357;
+}
+
+.paragraph{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: #5f0357;
+    
+    border-radius: 5%;
+    background-color: hsl(42, 68%, 73%);
+    padding: 5%;
+}
+
+.middle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: #5f0357;
+
+}
+
+.end{
+    display: flex;
+}
+
+.para1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: #5f0357;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    border-radius: 5%;
+    background-color: hsl(42, 68%, 73%);
+    padding: 5%;
+    
+}
+
+.para2{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: #5f0357;
+    margin-bottom: 20%;
+    border-radius: 5%;
+    background-color: hsl(42, 68%, 73%);
+    padding: 5%;
+}
+
+.lastbtn{
+    padding-top:5px ;
+    text-align: center;
+}
+
+button{
+    align:left;
+	background-color:rgb(179, 63, 159);
+	color: rgb(255, 255, 255);
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	margin-bottom: 10%;
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #6a074d;
+	cursor: pointer;
 }
